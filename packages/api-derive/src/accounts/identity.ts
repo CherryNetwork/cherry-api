@@ -60,6 +60,8 @@ function extractIdentity (identityOfOpt?: Option<PalletIdentityRegistration>, su
     pgp: info.pgpFingerprint.unwrapOr(UNDEF_HEX).toHex(),
     riot: dataAsString(info.riot),
     twitter: dataAsString(info.twitter),
+    discord: dataAsString(info.discord),
+    telegram: dataAsString(info.telegram),
     web: dataAsString(info.web)
   };
 }
