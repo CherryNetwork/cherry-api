@@ -1,19 +1,19 @@
 {
-  "author": "Jaco Greeff <jacogr@gmail.com>",
-  "bugs": "https://github.com/polkadot-js/api/issues",
+  "author": "Charalampos Mitrodimas <charmitro@pm.me>",
+  "bugs": "https://github.com/CherryNetwork/cherry-api/issues",
   "contributors": [],
-  "description": "Implementation of the Parity codec",
+  "description": "Implementation of the Parity & Cherry codec",
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "https://github.com/polkadot-js/api/tree/master/packages/types#readme",
+  "homepage": "https://github.com/CherryNetwork/cherry-api/tree/master/packages/types#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@polkadot/types",
+  "name": "@cherrylabs/types",
   "repository": {
     "directory": "packages/types",
     "type": "git",
-    "url": "https://github.com/polkadot-js/api.git"
+    "url": "https://github.com/CherryNetwork/cherry-api.git"
   },
   "sideEffects": [
     "./detectPackage.js",
