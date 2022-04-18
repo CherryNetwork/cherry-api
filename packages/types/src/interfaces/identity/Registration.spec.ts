@@ -27,6 +27,8 @@ describe('Registration', (): void => {
         pgpFingerprint: null,
         riot: { raw: '0x9955' },
         twitter: { raw: '0x9966' },
+        discord: { raw: '0x9977' },
+        telegram: { raw: '0x9988' },
         web: { raw: '0x9944' }
       },
       judgements: []

@@ -16,6 +16,8 @@ export interface IdentityFields extends Set {
   readonly isPgpFingerprint: boolean;
   readonly isImage: boolean;
   readonly isTwitter: boolean;
+  readonly isDiscord: boolean;
+  readonly isTelegram: boolean;
 }
 
 /** @name IdentityInfo */
@@ -29,6 +31,8 @@ export interface IdentityInfo extends Struct {
   readonly pgpFingerprint: Option<H160>;
   readonly image: Data;
   readonly twitter: Data;
+  readonly discord: Data;
+  readonly telegram: Data;
 }
 
 /** @name IdentityInfoAdditional */

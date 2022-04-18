@@ -20,7 +20,9 @@ export default {
         Email: 0b00000000_00000000_00000000_0001_0000,
         PgpFingerprint: 0b00000000_00000000_00000000_0010_0000,
         Image: 0b00000000_00000000_00000000_0100_0000,
-        Twitter: 0b00000000_00000000_00000000_1000_0000
+        Twitter: 0b00000000_00000000_00000000_1000_0000,
+	Discord = 0b0000000000000000000000000000000000000000000000000000000100000000,
+	Telegram = 0b0000000000000000000000000000000000000000000000000000001000000000
       }
     },
     IdentityInfoAdditional: '(Data, Data)',
@@ -44,7 +46,9 @@ export default {
       email: 'Data',
       pgpFingerprint: 'Option<H160>',
       image: 'Data',
-      twitter: 'Data'
+      twitter: 'Data',
+      discord: 'Data',
+      telegram: 'Data',
     },
     IdentityJudgement: {
       _enum: {
